@@ -1,14 +1,31 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import contact from "../public/assets/contact.jpg";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Contact = () => {
+  const [input, setInput] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    object: "",
+    message: "",
+  });
+
+  const handleInput = (event) => {
+    const value = event.target.value;
+    setInput({
+      ...input,
+      [event.target.name]: value,
+    });
+  };
+
+  console.log(input);
+
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
@@ -71,13 +88,19 @@ const Contact = () => {
 
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
-              <form>
+              <form
+                action="https://getform.io/f/e3f18935-ecc6-4933-a943-d127d669b45f"
+                method="POST"
+              >
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Nom</label>
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
+                      name="name"
+                      onChange={handleInput}
+                      value={input.name}
                     />
                   </div>
                   <div className="flex flex-col">
@@ -85,6 +108,9 @@ const Contact = () => {
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
+                      name="phone"
+                      onChange={handleInput}
+                      value={input.phone}
                     />
                   </div>
                 </div>
@@ -93,6 +119,9 @@ const Contact = () => {
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="email"
+                    name="email"
+                    onChange={handleInput}
+                    value={input.email}
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -100,6 +129,9 @@ const Contact = () => {
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="text"
+                    name="object"
+                    onChange={handleInput}
+                    value={input.object}
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -107,6 +139,9 @@ const Contact = () => {
                   <textarea
                     className="border-2 rounded-lg p-3 border-gray-300"
                     rows={10}
+                    name="message"
+                    onChange={handleInput}
+                    value={input.message}
                   ></textarea>
                 </div>
                 <button className="w-full p-4 text-gray-100 mt-4">
