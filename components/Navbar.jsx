@@ -1,9 +1,11 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import logo from "../public/assets/logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -57,10 +59,10 @@ const Navbar = () => {
         <Link href="/">
           <Image
             className="cursor-pointer"
-            src="/../public/assets/logo.png"
-            alt="/"
+            src={logo}
             width="125"
             height="100"
+            alt="/"
           />
         </Link>
 
