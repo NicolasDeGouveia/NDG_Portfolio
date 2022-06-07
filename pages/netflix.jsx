@@ -29,13 +29,14 @@ const netflix = () => {
           </p>
           <h2 className="py-2">Aperçu</h2>
           <p className="pb-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus, voluptatem quos laboriosam quasi hic illum odio unde
-            asperiores ex repellendus enim temporibus aliquid architecto beatae
-            consequuntur autem cum ipsum eaque?Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Eveniet eaque qui sed voluptatum amet,
-            quas id explicabo sequi vel voluptatibus molestias necessitatibus
-            aspernatur recusandae a alias dolorum ex debitis ipsa!
+            Ce projet a été conçu dans le but de cloner l&apos;application
+            Netflix. Il a été réalisé avec la librairie React JS ainsi que
+            Tailwind CSS pour le design. L&apos;utilisateur peut se créer un
+            compte et se connecter à l&apos;application. Une fois connecté
+            l&apos;utilisateur pourra mettre en favoris les films souhaités,
+            mais également les supprimés. La partie Back-End, pour
+            l&apos;authentification est l&apos;ajout/suppression de favoris, est
+            gérée par Firebase.
           </p>
           <a
             href="https://netflix-react-tailwind.web.app/"
