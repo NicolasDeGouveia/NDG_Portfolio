@@ -12,16 +12,25 @@ const About = () => {
           </p>
           <h2 className="py-4">Qui suis-je</h2>
           <p className="text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-            porro dolorum dicta eius ipsam maxime rerum, inventore ut? Quisquam
-            quas recusandae nam? Consequuntur, adipisci? Non doloribus quaerat
-            animi ad corporis.
+            Je m&apos;appelle Nicolas De Gouveia, anciennement
+            technicien/administrateur système et réseau pendant plus de 5 ans,
+            j&apos;ai depuis toujours été passionné par tout ce qui touche au
+            domaine de l&apos;informatique, mais plus particulièrement par le
+            développement web.
           </p>
           <p className="text-sm py-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-            porro dolorum dicta eius ipsam maxime rerum, inventore ut? Quisquam
-            quas recusandae nam? Consequuntur, adipisci? Non doloribus quaerat
-            animi ad corporis.
+            C&apos;est pourquoi, après avoir commencé mon apprentissage en
+            autodidacte, j&apos;ai décidé de me professionnaliser en me formant
+            avec l&apos;école O&apos;Clock. Cette formation me permet
+            aujourd&apos;hui de posséder un profil Fullstack en JavaScript. Mon
+            attrait pour la création de design dynamique orienté Ui/Ux m&apos;a
+            poussé à me spécialiser côté Front-End avec la librairie React Js.
+          </p>
+          <p className="text-sm">
+            Je réalise aujourd&apos;hui divers projets que vous pourrez voir
+            plus bas, en utilisant les technologies Front récentes comme React
+            JS, Tailwind CSS, SASS, Next Js.. Mais également Node JS, Firebase
+            pour la gestion du Back-End.
           </p>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">

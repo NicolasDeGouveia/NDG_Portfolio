@@ -29,13 +29,16 @@ const dolcevita = () => {
           </p>
           <h2 className="py-2">Aperçu</h2>
           <p className="pb-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus, voluptatem quos laboriosam quasi hic illum odio unde
-            asperiores ex repellendus enim temporibus aliquid architecto beatae
-            consequuntur autem cum ipsum eaque?Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Eveniet eaque qui sed voluptatum amet,
-            quas id explicabo sequi vel voluptatibus molestias necessitatibus
-            aspernatur recusandae a alias dolorum ex debitis ipsa!
+            Dolce Vita est un projet qui est né de ma seconde passion: les
+            Voyages. En effet, je souhaitais réaliser un blog à l&apos;interface
+            dynamique et claire pour les utilisateurs. Le site est composé
+            d&apos;un carousel d&apos;images qui nous permet de pouvoir accéder
+            directement aux informations de la ville que nous souhaitons. Quatre
+            pages sont disponibles, une page pour en apprendre plus sur les
+            bloggeurs, une page sur les différentes villes visitées et une page
+            pour les astuces de voyage. La dernière page est une page de contact
+            avec un formulaire. Il s&apos;agit d&apos;un site vitrine réalisé en
+            React JS et SCSS.
           </p>
           <a
             href="https://nicolasdegouveia.github.io/dolcevita/"
