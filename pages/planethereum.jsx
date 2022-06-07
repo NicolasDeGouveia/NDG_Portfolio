@@ -6,7 +6,7 @@ import { BiRadioCircle } from "react-icons/bi";
 
 const planethereum = () => {
   return (
-    <div className="w-full overflow-x-hidden">
+    <div className="w-full over">
       <div className=" w-screen h-[30vh] lg:h-[40vh] relative">
         <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-stone-500/70 z-10" />
         <Image
@@ -29,23 +29,26 @@ const planethereum = () => {
           </p>
           <h2 className="py-2">Aperçu</h2>
           <p className="pb-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus, voluptatem quos laboriosam quasi hic illum odio unde
-            asperiores ex repellendus enim temporibus aliquid architecto beatae
-            consequuntur autem cum ipsum eaque?Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Eveniet eaque qui sed voluptatum amet,
-            quas id explicabo sequi vel voluptatibus molestias necessitatibus
-            aspernatur recusandae a alias dolorum ex debitis ipsa!
+            Planethereum est une Single-Page Application pour un NFT réalisé
+            avec React JS et en SCSS. Mon intérêt grandissant pour les NFT et
+            l&apos;univers de la cryptomonnaie, j&apos;ai décidé de créer à mon
+            tour un site web vitrine proposant des NFT basés sur les planètes.
+            Ainsi comme tout site web de NFT, l&apos;utilisateur pourra se
+            renseigner sur le projet autour de ce NFT. Il pourra également avoir
+            un aperçu de la Road Map que suivra l&apos;équipe du projet. Et pour
+            finir, une présentation de l&apos;équipe qui se trouve derrière ce
+            projet. Le design de la Road Map a été réalisé par une jeune artiste
+            débutant dans le graphisme.
           </p>
           <a
-            href="https://github.com/NicolasDeGouveia/Planethereum"
+            href="https://nicolasdegouveia.github.io/Planethereum/"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-6">Demo</button>
           </a>
           <a
-            href="https://nicolasdegouveia.github.io/Planethereum/"
+            href="https://github.com/NicolasDeGouveia/Planethereum"
             target="_blank"
             rel="noreferrer"
           >
