@@ -4,21 +4,21 @@ import computer from "../public/assets/computer.jpg";
 
 const About = () => {
   return (
-    <div id="about" className="w-full md:h-screen flex items-center py-16">
+    <div id="about" className="w-full flex items-center py-8">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <p className="text-xl text-[#829550] uppercase tracking-widest">
             About
           </p>
           <h2 className="py-4">Qui suis-je</h2>
-          <p className="text-sm">
-            Je m&apos;appelle Nicolas De Gouveia, anciennement
-            technicien/administrateur système et réseau pendant plus de 5 ans,
-            j&apos;ai depuis toujours été passionné par tout ce qui touche au
-            domaine de l&apos;informatique, mais plus particulièrement par le
-            développement web.
+          <p className="text-sm text-justify px-2 lg:px-0 md:px-0">
+            Je m&apos;appelle Nicolas, anciennement technicien/administrateur
+            système et réseau pendant plus de 5 ans, j&apos;ai depuis toujours
+            été passionné par tout ce qui touche au domaine de
+            l&apos;informatique, mais plus particulièrement par le développement
+            web.
           </p>
-          <p className="text-sm py-4">
+          <p className="text-sm text-justify py-4 px-2 lg:px-0 md:px-0">
             C&apos;est pourquoi, après avoir commencé mon apprentissage en
             autodidacte, j&apos;ai décidé de me professionnaliser en me formant
             avec l&apos;école O&apos;Clock. Cette formation me permet
@@ -26,7 +26,7 @@ const About = () => {
             attrait pour la création de design dynamique orienté Ui/Ux m&apos;a
             poussé à me spécialiser côté Front-End avec la librairie React Js.
           </p>
-          <p className="text-sm">
+          <p className="text-sm text-justify px-2 lg:px-0 md:px-0">
             Je réalise aujourd&apos;hui divers projets que vous pourrez voir
             plus bas, en utilisant les technologies Front récentes comme React
             JS, Tailwind CSS, SASS, Next Js.. Mais également Node JS, Firebase

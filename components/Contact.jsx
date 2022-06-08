@@ -24,10 +24,8 @@ const Contact = () => {
     });
   };
 
-  console.log(input);
-
   return (
-    <div id="contact" className="w-full lg:h-screen">
+    <div id="contact" className="w-full lg:h-screen lg:py-8">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="text-xl uppercase tracking-widest text-[#829550]">
           Contact
@@ -144,7 +142,7 @@ const Contact = () => {
                     value={input.message}
                   ></textarea>
                 </div>
-                <button className="w-full p-4 text-gray-100 mt-4">
+                <button className="w-full p-4 text-gray-100 mt-4 bg-gradient-to-r from-[#ecf0f3] to-[#8e8e8e]">
                   Envoyer
                 </button>
               </form>

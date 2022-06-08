@@ -7,7 +7,7 @@ import planethereum from "../public/assets/projects/planethereum.png";
 const Projects = () => {
   return (
     <div id="projects" className="w-full">
-      <div className="max-w-[1240px] mx-auto px-2 py-16">
+      <div className="max-w-[1240px] mx-auto px-2 py-8">
         <p className="text-xl tracking-widest uppercase text-[#829550]">
           Projets
         </p>
