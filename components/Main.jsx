@@ -15,7 +15,7 @@ const Main = () => {
           <p className="max-w-[70%] m-auto py-4">
             Je développe des sites web en CSS, HTML, JavaScript et React.
             L&apos;optimisation au centre des projets: Référencement (SEO),
-            Responsive Design, accéssibilité.
+            Responsive Design, accessibilité.
           </p>
           <div className="flex justify-center items-center max-w-[330px] m-auto py-4">
             <div className="rounded-full shadow-lg ml-4 shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
