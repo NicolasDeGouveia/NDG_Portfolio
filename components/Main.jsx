@@ -1,11 +1,20 @@
-import React from "react";
-import Link from "next/link";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 const Main = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
+
   return (
-    <div id="home" className="w-full h-screen text-center ">
+    <div
+      data-aos="fade-down"
+      id="home"
+      className="w-full h-screen text-center "
+    >
       <div className=" max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="text-sm tracking-widest mb-2">

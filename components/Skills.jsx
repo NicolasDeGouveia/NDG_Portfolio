@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import css from "../public/assets/skills/css.png";
 import firebase from "../public/assets/skills/firebase.png";
@@ -8,16 +8,27 @@ import javascript from "../public/assets/skills/javascript.png";
 import node from "../public/assets/skills/node.png";
 import react from "../public/assets/skills/react.png";
 import tailwind from "../public/assets/skills/tailwind.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Skills = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
   return (
     <div id="skills" className="w-full lg:h-screen p-2">
-      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
+      <div
+        data-aos="fade-right"
+        className="max-w-[1240px] mx-auto flex flex-col justify-center h-full"
+      >
         <p className="text-xl uppercase tracking-widest text-[#829550]">
           Skills
         </p>
         <h2 className="py-4">Ce que je fais</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div
+          data-aos="zoom-in-up"
+          className="grid md:grid-cols-2 lg:grid-cols-4 gap-8"
+        >
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
