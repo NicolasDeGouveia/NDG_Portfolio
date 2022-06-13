@@ -31,17 +31,14 @@ const Contact = () => {
   }, []);
 
   return (
-    <div id="contact" className="w-full lg:h-screen lg:py-8">
+    <div data-aos="fade-up" id="contact" className="w-full lg:h-screen lg:py-8">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="text-xl uppercase tracking-widest text-[#829550]">
           Contact
         </p>
         <h2 className="py-4"> Prenons contact</h2>
         <div className="grid lg:grid-cols-5 gap-8">
-          <div
-            data-aos="fade-right"
-            className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4"
-          >
+          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full flex flex-col justify-between">
               <div>
                 <Image
@@ -93,10 +90,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div
-            data-aos="fade-left"
-            className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4"
-          >
+          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
               <form
                 action="https://getform.io/f/e3f18935-ecc6-4933-a943-d127d669b45f"

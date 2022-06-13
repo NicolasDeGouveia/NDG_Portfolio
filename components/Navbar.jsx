@@ -2,8 +2,6 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Aos from "aos";
-import "aos/dist/aos.css";
 import { useRouter } from "next/router";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
@@ -16,10 +14,6 @@ const Navbar = () => {
   const [mobileBar, setMobileBar] = useState("#fff");
   const [linkColor, SetLinkColor] = useState("#1f2937");
   const router = useRouter();
-
-  useEffect(() => {
-    Aos.init({ duration: 1500 });
-  }, []);
 
   useEffect(() => {
     if (
@@ -72,7 +66,7 @@ const Navbar = () => {
           />
         </Link>
 
-        <div data-aos="fade-left">
+        <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
               <li className="uppercase ml-10 text-sm hover:border-b hover:text-[#829550]">

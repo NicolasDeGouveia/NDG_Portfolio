@@ -1,18 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
-import React, { useEffect } from "react";
+import React from "react";
 import Project from "./Project";
 import dolcevita from "../public/assets/projects/dolcevita.png";
 import netflix from "../public/assets/projects/netflix.png";
 import planethereum from "../public/assets/projects/planethereum.png";
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 const Projects = () => {
-  useEffect(() => {
-    Aos.init({ duration: 1500 });
-  }, []);
   return (
-    <div data-aos="zoom-out-up" id="projects" className="w-full">
+    <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-8">
         <p className="text-xl tracking-widest uppercase text-[#829550]">
           Projets

@@ -8,9 +8,13 @@ const About = () => {
     Aos.init({ duration: 1500 });
   }, []);
   return (
-    <div id="about" className="w-full flex items-center py-8">
+    <div
+      data-aos="zoom-in"
+      id="about"
+      className="w-full flex items-center py-8"
+    >
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
-        <div data-aos="fade-up" className="col-span-2">
+        <div className="col-span-2">
           <p className="text-xl text-[#829550] uppercase tracking-widest">
             About
           </p>
@@ -37,10 +41,7 @@ const About = () => {
             pour la gestion du Back-End.
           </p>
         </div>
-        <div
-          data-aos="zoom-in"
-          className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300"
-        >
+        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           <img
             className="rounded-xl"
             src="https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1760&q=80"
