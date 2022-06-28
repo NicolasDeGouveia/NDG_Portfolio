@@ -4,6 +4,7 @@ import Project from "./Project";
 import dolcevita from "../public/assets/projects/dolcevita.png";
 import netflix from "../public/assets/projects/netflix.png";
 import planethereum from "../public/assets/projects/planethereum.png";
+import wild from "../public/assets/projects/intothewild.png";
 
 const Projects = () => {
   return (
@@ -31,6 +32,12 @@ const Projects = () => {
             picture={planethereum}
             tech="React JS"
             projectUrl="/planethereum"
+          />
+          <Project
+            title="Into The Wild"
+            picture={wild}
+            tech="React JS"
+            projectUrl="/wild"
           />
         </div>
       </div>
