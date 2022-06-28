@@ -19,7 +19,8 @@ const Navbar = () => {
     if (
       router.asPath === "/dolcevita" ||
       router.asPath === "/netflix" ||
-      router.asPath === "/planethereum"
+      router.asPath === "/planethereum" ||
+      router.asPath === "/wild"
     ) {
       setNavBg("transparent");
       SetLinkColor("#ecf0f3");
